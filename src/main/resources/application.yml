@@ -1,6 +1,6 @@
 spring:
   application:
-    name: discovery-server  # Nom de l'application
+    name: eureka-server  # Nom de l'application
 server:
   port: 8761  # Port sur lequel Eureka sera disponible
 
