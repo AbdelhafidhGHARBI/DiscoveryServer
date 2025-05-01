@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: discovery-server  # Nom de l'application
+server:
+  port: 8761  # Port sur lequel Eureka sera disponible
+
+eureka:
+  client:
+    register-with-eureka: false  # Désactive l'enregistrement du serveur Eureka lui-même
+    fetch-registry: false  # Désactive la récupération du registre pour ce serveur
+  server:
+    enable-self-preservation: false  # Permet de désactiver la préservation automatique des instances
